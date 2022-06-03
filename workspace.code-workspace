@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../moon"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cph-uni"
+	}
+}
