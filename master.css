@@ -21,12 +21,15 @@ nav{
      display: flex;
      padding:2% 6%;
      justify-content: space-between;
-     align-items: center; 
+     align-items: center;
 
 }
-nav img{
+nav h1{
     width: 150px;
-
+}
+.logo{
+    color: #f44336;
+    text-decoration: none;
 }
 .nav-links{
     flex: 1;
@@ -54,7 +57,7 @@ nav img{
     transition: 0.7s;
 }
 .nav-links ul li a:hover::after{
-    
+
     width:100%;
 }
 .text-box{
@@ -63,7 +66,7 @@ nav img{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     text-align:center
 }
 .text-box h1{
@@ -153,14 +156,14 @@ p{
     margin-top:5%;
     display: flex;
      justify-content: space-between;
-      
+
 }
 .course-col{
     flex-wrap: wrap;
     flex-basis: 31%;
     background-color: #fff3f3;
     border-radius: 43px;
-    margin-bottom:5%; 
+    margin-bottom:5%;
     padding:20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
@@ -168,7 +171,7 @@ p{
 h3{
     text-align: center;
     font-weight:600;
-   margin: 10px 0; 
+   margin: 10px 0;
 }
 .course-col:hover{
     box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
@@ -177,7 +180,7 @@ h3{
 @media(max-width:700px){
    .row{
        flex-direction: column;
-   } 
+   }
 
 }
 
@@ -226,7 +229,7 @@ h3{
     position: absolute;
     opacity: 0;
     transition:0.5s;
-     
+
 }
 
 .layer:hover h3{
@@ -304,10 +307,10 @@ h3{
 }
 @media(max-width: 700px){
     .testimonial-col img {
-        
+
         margin-left: 0px;
         margin-right: 15px;
-        
+
     }
 
 
